@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(rgb(178, 178, 178), rgb(79, 79, 97), rgb(22, 22, 22));
+    font-family: "nunito", sans-serif;
+}
+
+#mainNavBar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavBar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#mainNavBar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+
+
+}
+
+#headingGroup span {
+    color: #ea1c2c;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media(max-width: 1350px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:1050px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
+
+.blurb h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2.0;
+
+}
+
+.content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68);
+    transition: background 10000ms;
+}
+
+.kita {
+    border: solid (178, 178, 178);
+    border-radius: 0 0 0 50px;
+}
+
+.eye {
+    border: solid (178, 178, 178);
+    border-radius: 0 50px 50px 0;
+}
+
+.voyeur {
+    border: solid (178, 178, 178);
+    border-radius: 50px 0 0 50px;
+}
+
+.citgo {
+    border: solid (178, 178, 178);
+    border-radius: 0 50px 0 0;
+}
